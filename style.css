@@ -1,0 +1,77 @@
+/* Modern password generator styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  width: 360px;
+  max-width: 90%;
+  text-align: center;
+  backdrop-filter: blur(8px);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.options {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#length {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: #2980b9;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1abc9c;
+}
+
+.output {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+#password {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  color: #333;
+}
