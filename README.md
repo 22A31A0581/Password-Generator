@@ -13,16 +13,12 @@ A simple and customizable password generator built using **HTML**, **CSS**, and 
 - Copy generated password to clipboard
 - Responsive and clean UI
 
-## 🖼️ Preview
-
-![Password Generator Preview](preview.png)  
-> *(Optional: Add a screenshot of your project named `preview.png` in the root folder)*
 
 ## 🛠️ Built With
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- HTML
+- CSS
+- JavaScript 
 
 
 ## 💡 How to Use
